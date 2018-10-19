@@ -1,14 +1,15 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      EXEMPLOS
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button ion-button color="secondary" block (click)="showAlert()">Show Prompt Alert</button>
+  <button ion-button block (click)="paginaListaObjetos()">Página Lista Objetos</button>
+  <button ion-button block (click)="paginaMostraFotos()">Mostra Fotos Randômicas</button>
+  <button ion-button block (click)="paginaListaRetornoJSON()">Lista Retorno JSON</button>
+  <button ion-button block (click)="paginaListaFotos()">Lista Fotos</button>
 </ion-content>
